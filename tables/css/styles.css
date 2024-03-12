@@ -1,0 +1,118 @@
+body{
+   
+    font-size:16px;
+    line-height:2;
+    color:black;
+    background-color: rgb(196, 197, 193);
+    padding: 0px;
+    margin:0px;
+}
+
+#tables{
+    background-color:antiquewhite;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#calendar{
+    *{
+        box-sizing: border-box;
+    }
+
+    table{
+        width: 90%;
+        margin: 10px auto;
+        border-collapse: collapse;
+        border: 3px solid darkgreen;
+    }
+
+    th{
+        color: white;
+        background: darkgreen;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid white;
+        height: 40px;
+    }
+
+    td{
+        height: 40px;
+        text-align: right;
+        vertical-align: top;
+        width: 14%;
+        border: 1px solid darkgreen;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    .weekend {
+        background: rgba(121, 212, 122, 0.8)
+    }
+}
+
+#styling-tables{
+
+    *{
+        box-sizing: border-box;
+    }
+
+    table{
+        width: 95%;
+        margin: 20px auto;
+        border: 3px solid darkblue;
+        border-collapse: collapse;
+      }
+    
+      th,
+      td {
+        border: 1px solid darkblue;
+        padding: 5px;
+      }
+    
+      th{
+        color:antiquewhite;
+        background-color: darkblue;
+      }
+    
+      tr:hover {
+        background:palegreen;
+      }
+    
+      td{
+        text-align: center;
+        min-height: 25px;
+      }
+    }
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #4eec09;
+    border-width: 5px;
+    padding: 20px;
+    background:azure;
+}
+
+nav, h1{
+    text-align:center;
+}
+nav a{
+    font-size: larger;
+    color:black;
+    padding:10px 20px;
+    background-color:#4eec09;
+    font-weight:bold;
+    text-decoration:none;
+    margin-left:30px;
+    border-radius:20px;
+    border: 2px solid #4eec09;
+}
+
+nav a:hover{
+    color:#4eec09;
+    background: black
+}
+
+h2{
+    margin-top:100px;
+}
