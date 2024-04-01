@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    overflow: auto;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background: #4E9284;
+    color: black;
+    box-sizing: border-box;
+}
+
+.container{
+    background: rgb(210, 254, 231);
+    width: 80%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    color: #055902;
+    font-weight: 1000;
+    font-size: x-large;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    color: #078C03;
+}
+
+nav{
+    text-align: center;
+    line-height: 3;
+}
+
+nav a, .button{
+    padding: 10px 20px;
+    margin-left: 20px;
+    color: #034001;
+    background: #76D914;
+    border: 2px solid #034001;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+nav a:hover, .button:hover{
+    color: #055902;
+    background: #078C03;
+}
+
+nav a:visited, .button:visited{
+    background: #76D914;
+    border: #0D0307;
+}
+
+img{
+    padding: 5px;
+    background: #078C03;
+}
+
+#hummingbird{
+    width: 40%;
+
+    float:unset;
+}
+
+#aurora{
+    width: 40%;
+
+    float: unset;
+}
+
+#alberta{
+    width: 40%;
+
+    float: unset;
+}
+
+aside{
+    clear: both;
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 10px;
+    overflow: auto;
+    border: 3px solid #078C03;
+    margin-right: center;
+}
+
+header, footer{
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+    box-sizing: border-box;
+    padding: 20px;
+}
