@@ -1,0 +1,157 @@
+.vast-shadow-regular{
+    font-family: "Vast Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+   
+    font-size:30px;
+    line-height:2;
+    color: black;
+    padding: 0px;
+    margin:0px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: floralwhite;
+}
+
+h1{
+    margin-top: 50px;
+    margin: 50px;
+    font-size: 60px;
+    font-family: "Vast Shadow", serif;
+    font-weight: lighter;
+}
+
+h2{
+    margin-top: 20px;
+    margin: 20px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    font-weight: normal;
+}
+
+
+p{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    border-radius:20px;
+    border: 2px solid #1c9a31;
+    background-color: #dee685;
+}
+.container{
+    width: 80%;
+    margin: 20px auto;
+    border: 3px solid rgb(36, 68, 142);
+    padding: 10px;
+    background: linear-gradient(135deg,  rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%);
+}
+
+nav a{
+    font-size: larger;
+    color: black;
+    padding:10px 20px;
+    background-color:#1e829d;
+    font-weight:bold;
+    text-decoration:none;
+    margin-left:30px;
+    border-radius:20px;
+    border: 2px solid #1e829d ;
+}
+
+nav a:hover{
+    color:#e1eef5;
+    background: rgb(100, 105, 107)
+}
+
+#home{
+    background-color: floralwhite;
+}
+
+#beuty{
+    background-color: floralwhite;
+}
+
+#food{
+    background-color: floralwhite;
+}
+
+#country{
+    background-color: floralwhite;
+}
+
+#fun{
+    background-color: floralwhite;
+}
+
+#slider{
+    overflow: hidden;
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img{
+    float: left;
+    width: 20%;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+iframe{
+    width: 70%;
+    height: 500px;
+    border: none;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    border-radius:20px;
+    border: 2px solid #1e4d9d;
+    background-color: rgba(71, 23, 103, 0.41);
+}
